@@ -157,7 +157,7 @@
 }
 
 .news_item {
-    /*margin-bottom: 0.8rem;*/
+    font-size: 18px;
 }
 
 @media screen and (max-width: 992px) {
@@ -253,9 +253,6 @@
     /*padding-bottom: 25rem;*/
 }
 
-.news_item {
-    /*margin-bottom: 0.8rem;*/
-}
 
 /*---------------------------------------
    SCHEDULE
@@ -347,9 +344,10 @@
 .team-info {
     background: var(--white-color);
     border-radius: 0 0 2px 2px;
-    box-shadow: 6px 0 38px rgba(20,20,20,0.10);
+    /*box-shadow: 6px 0 38px rgba(10,10,10,0.05);*/
     padding: 20px;
     position: relative;
+
 }
 
 .team-info span {
@@ -468,11 +466,23 @@ button#submit-button:hover {
 .about{
     padding: 75px;
 }
-.people_item {
-    margin-bottom: 30px;
+
+.people_list {
+    font-family: "Raleway", sans-serif;
 }
+
+.people_item {
+    width: 19%;
+    margin: 15px 15px;
+}
+
 .pub_item {
+    font-size: 22px;
     margin-bottom: 10px;
+}
+
+.pub_desc {
+    color: #7f888f;
 }
 
 h4{
