@@ -157,7 +157,7 @@
 }
 
 .news_item {
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -201,6 +201,7 @@
 
 .intro {
     margin-bottom: 5rem;
+
 }
 
 
@@ -248,8 +249,8 @@
 }
 
 .pre-wrap {
-    /*margin-top: 2.5rem;*/
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     /*padding-bottom: 25rem;*/
 }
 
@@ -324,7 +325,7 @@
 -----------------------------------------*/
 
 .about {
-    background: var(--about-bg-color);
+    /*background: var(--about-bg-color);*/
 }
 
 .about-working-hours {
@@ -468,7 +469,7 @@ button#submit-button:hover {
 }
 
 .people_list {
-    font-family: "Raleway", sans-serif;
+    /*font-family: "Raleway", sans-serif;*/
 }
 
 .people_item {
@@ -483,8 +484,43 @@ button#submit-button:hover {
 
 .pub_desc {
     color: #7f888f;
+    font-size: 1.3rem;
 }
 
 h4{
     align-content: center;
+}
+
+.content {
+    font-size:1.3em;
+    margin: 0 0 1em 0;
+    color: #333;
+}
+
+.welcome {
+    margin-bottom: 4rem;
+    font-size: 2.2rem
+}
+
+body {
+    font-family: "Libre Baskerville","Times New Roman",serif;
+}
+
+.research_intro {
+    text-align:justify;
+    font-size: 1.3rem;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 5em;
+}
+
+.teacher_intro {
+    text-align:justify;
+    margin: 0 0 2em 0;
+    color: #7f888f;
+    font-size: 1.3rem;
+}
+
+.research_introduce {
+    font-size: 1.2rem;
 }
